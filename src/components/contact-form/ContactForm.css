@@ -6,22 +6,24 @@
   background-color: #1D73EE;
   color: white;
   height: 430px;
-  padding: 0 30px;
+  padding: 0 20px;
+}
+
+.contact-form__title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36px;
 }
 
 .contact-form__form {
   position: relative;
   background-color: white;
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 60px;
   border-radius: 4px;
   border: 0;
-}
-
-.contact-form__form-title {
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 36px;
 }
 
 .contact-form__form-input {

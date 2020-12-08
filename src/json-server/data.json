@@ -3,7 +3,8 @@
     "title": "BetterPaint",
     "logo": {
       "href": "/",
-      "src": "/assets/logo-full.svg",
+      "srcDesktop": "/assets/logo-full.svg",
+      "srcMobile": "/assets/logo-condensed.svg",
       "alt": "logo"
     },
     "shoppingCart": {

@@ -5,3 +5,8 @@
   height: 80px;
   padding: 0 30px;
 }
+
+.navigation__logo {
+  min-width: 40px;
+  min-height: 40px;
+}

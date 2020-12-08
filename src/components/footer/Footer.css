@@ -1,15 +1,19 @@
 .footer {
   display: flex;
   background-color: black;
-  height: 360px;
   color: white;
   justify-content: space-around;
-  padding-top: 70px;
+  padding: 70px;
+  flex-direction: column;
 }
 
 .footer__group {
   display: flex;
   flex-direction: column;
+}
+
+.footer__group:not(:first-child) {
+  margin-top: 60px;
 }
 
 .footer__group-title {
@@ -44,4 +48,14 @@
 .footer__group-all-rights-reserved {
   margin-top: 32px;
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .footer {
+    flex-direction: row;
+  }
+
+  .footer__group:not(:first-child) {
+    margin-top: 0;
+  }
 }

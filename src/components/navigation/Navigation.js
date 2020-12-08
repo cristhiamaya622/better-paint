@@ -7,7 +7,10 @@ class Navigation {
     return `
       <nav class="navigation">
         <a href="${this.logo.href}">
-          <img src="${this.logo.src}" alt="${this.logo.alt}">
+          <img class="navigation__logo"
+               srcset="${this.logo.srcMobile} 767w, ${this.logo.srcDesktop}"
+               src="${this.logo.srcMobile}"
+               alt="${this.logo.alt}">
         </a>
         <a href="${this.shoppingCart.href}">
           <img src="${this.shoppingCart.src}" alt="${this.shoppingCart.alt}">

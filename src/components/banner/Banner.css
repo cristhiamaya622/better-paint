@@ -8,13 +8,14 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
+  object-position: left;
 }
 
 .banner__content {
   position: absolute;
-  left: 70px;
-  top: 190px;
-  width: 500px;
+  left: 20px;
+  right: 20px;
+  top: 130px;
   color: white;
 }
 
@@ -42,4 +43,15 @@
   font-size: 13px;
   font-weight: 700;
   line-height: 20px;
+}
+
+@media screen and (min-width: 767px) {
+  .banner__content {
+    position: absolute;
+    top: 190px;
+    left: 70px;
+    right: auto;
+    width: 500px;
+    margin: 0 20px;
+  }
 }
