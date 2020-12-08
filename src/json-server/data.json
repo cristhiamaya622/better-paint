@@ -25,7 +25,8 @@
   "contactForm": {
     "title": "We send really nice emails.",
     "label": "Enter your email address.",
-    "cta": "Submit"
+    "cta": "Submit",
+    "successMessage": "Thank you!. We will send you REALLY nice emails."
   },
   "footer": {
     "links": [

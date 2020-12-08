@@ -1,19 +1,25 @@
+import { getRandomNumber, isValidEmail } from '../../utils.js'
 class ContactForm {
-  constructor({ title, label, cta }) {
+  constructor({ title, label, cta, successMessage }) {
+    this.id = getRandomNumber();
     this.title = title;
     this.label = label;
     this.cta = cta;
-    this.id = Math.round(Math.random() * 10e10);
+    this.successMessage = successMessage;
   }
 
   addEventListeners() {
     const component = document.getElementById(this.id);
     const [ form ] = component.getElementsByClassName('contact-form__form');
-    form.addEventListener('submit', this.onSubmit);
+    form.addEventListener('submit', this.onSubmit.bind(this));
   }
 
   onSubmit(event) {
     event.preventDefault();
+    const inputValue = document.getElementById('contact-form-email').value;
+    if(isValidEmail(inputValue)) {
+      alert(this.successMessage);
+    };
   }
 
   render() {
