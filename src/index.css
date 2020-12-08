@@ -1,4 +1,40 @@
+:root {
+  --skillshare-font-family: "Futura";
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+  --accent-color:#1D73EE;
+  --gray-color:  #7F818D;
+}
+
 body {
-  font-family: Futura;
+  font-family: var(--skillshare-font-family);
+  font-size: 16px;
+  line-height: 22px;
   margin: 0;
+}
+
+h1 {
+  font-family: var(--skillshare-font-family);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+h2 {
+  font-family: var(--skillshare-font-family);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+button {
+  background-color: var(--black-color);
+  border-radius: 4px;
+  border: 0;
+  color: var(--white-color);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 10px 16px;
+  text-transform: uppercase;
 }
