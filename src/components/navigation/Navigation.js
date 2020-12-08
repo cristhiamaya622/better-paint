@@ -3,6 +3,7 @@ class Navigation {
     this.logo = logo;
     this.shoppingCart = shoppingCart;
   }
+
   render() {
     return `
       <nav class="navigation">

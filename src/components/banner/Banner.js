@@ -5,6 +5,7 @@ class Banner {
     this.img = img;
     this.cta = cta;
   }
+
   render() {
     return `
       <section class="banner" role="banner">
