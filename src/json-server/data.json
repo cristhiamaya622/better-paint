@@ -26,7 +26,8 @@
     "title": "We send really nice emails.",
     "label": "Enter your email address.",
     "cta": "Submit",
-    "successMessage": "Thank you!. We will send you REALLY nice emails."
+    "successMessage": "Thank you!. We will send you REALLY nice emails.",
+    "failMessage": "Your email is invalid :("
   },
   "footer": {
     "links": [

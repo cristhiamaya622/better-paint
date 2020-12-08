@@ -1,11 +1,12 @@
 import { getRandomNumber, isValidEmail } from '../../utils.js'
 class ContactForm {
-  constructor({ title, label, cta, successMessage }) {
+  constructor({ title, label, cta, successMessage, failMessage }) {
     this.id = getRandomNumber();
     this.title = title;
     this.label = label;
     this.cta = cta;
     this.successMessage = successMessage;
+    this.failMessage = failMessage;
   }
 
   addEventListeners() {
@@ -19,6 +20,8 @@ class ContactForm {
     const inputValue = document.getElementById('contact-form-email').value;
     if(isValidEmail(inputValue)) {
       alert(this.successMessage);
+    } else {
+      alert(this.failMessage);
     };
   }
 
