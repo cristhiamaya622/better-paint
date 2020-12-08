@@ -1,3 +1,5 @@
+![alt text](https://github.com/cristhiamaya622/better-paint/blob/main/src/assets/banner.svg)
+
 # Better Paint
 Squeaky. Clean. Paint.
 ## Installation/Running the App
