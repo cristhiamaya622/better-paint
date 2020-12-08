@@ -1,0 +1,20 @@
+{
+  "name": "better-paint",
+  "version": "1.0.0",
+  "description": "SkillShare Home Exercise",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "json-server --static src --watch src/json-server/data.json",
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cristhiamaya622"
+  },
+  "author": "Cristhian Amaya (cristhiamaya@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

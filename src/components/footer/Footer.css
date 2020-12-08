@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  background-color: black;
+  height: 360px;
+  color: white;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+
+.footer__group {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__group-title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.footer__group-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__group-list-item {
+  margin-top: 32px;
+  line-height: 22px
+}
+
+.footer__group-link {
+  text-decoration: none;
+  color: white;
+  margin: 0;
+}
+
+.footer__group-trademark {
+  margin-top: 38px;
+  margin-bottom: 0;
+}
+
+.footer__group-all-rights-reserved {
+  margin-top: 32px;
+  margin-bottom: 0;
+}

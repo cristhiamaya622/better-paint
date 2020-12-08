@@ -1,0 +1,90 @@
+{
+  "navigation": {
+    "title": "BetterPaint",
+    "logo": {
+      "href": "/",
+      "src": "/assets/logo-full.svg",
+      "alt": "logo"
+    },
+    "shoppingCart": {
+      "href": "/cart",
+      "src": "/assets/shopping-bag.svg",
+      "alt": "Shopping Cart"
+    }
+  },
+  "banner": {
+    "title": "Squeaky. Clean. Paint.",
+    "description": "High-quality, non-toxic paint shipped right to your door.",
+    "img": {
+      "src": "/assets/banner.svg",
+      "alt": "Banner"
+    },
+    "cta": "Shop The Collection"
+  },
+  "contactForm": {
+    "title": "We send really nice emails.",
+    "label": "Enter your email address.",
+    "cta": "Submit"
+  },
+  "footer": {
+    "links": [
+      {
+        "title": "Shop",
+        "sublinks": [
+          {
+            "href": "/face-paint",
+            "label": "Face Paint"
+          },
+          {
+            "href": "/craft-paint",
+            "label": "Craft Paint"
+          },
+          {
+            "href": "/spray-paint",
+            "label": "Spray Paint"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "sublinks": [
+          {
+            "href": "/blog",
+            "label": "Blog"
+          },
+          {
+            "href": "/faq",
+            "label": "FAQ"
+          },
+          {
+            "href": "/contact-us",
+            "label": "Contact Us"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "sublinks": [
+          {
+            "href": "/privacy-policy",
+            "label": "Privacy Policy"
+          },
+          {
+            "href": "/terms-of-use",
+            "label": "Terms of Use"
+          },
+          {
+            "href": "/about-us",
+            "label": "About Us"
+          },
+          {
+            "href": "/join-the-team",
+            "label": "Join the Team"
+          }
+        ]
+      }
+    ],
+    "trademark": "© 2020 BetterPaint",
+    "allRightsReserved": "All Rights Reserved"
+  }
+}
