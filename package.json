@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "json-server --static src --watch src/json-server/data.json",
-    "test": "jest --watch"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,7 @@
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.12.1",
     "babel-jest": "^26.6.3",
-    "jest": "^26.6.3",
-    "puppeteer": "^5.5.0"
+    "jest": "^26.6.3"
   },
   "jest": {
     "transform": {
